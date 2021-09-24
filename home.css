@@ -1,0 +1,70 @@
+body{
+    text-align: center;
+    background-color: black;
+}
+
+img{
+    width:1200px;
+    height:450px;
+}
+
+button{
+    text-align: center;
+    border-radius: 10px;
+    border-color: blue;
+    width: 195px;
+    height: 30px;
+    font-size: 19px;
+    background-color:aliceblue;
+    font-style:oblique;
+}
+
+button:hover{
+    background-color: aqua;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+p{
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 140px;
+    margin-right: 140px;
+    font-size: 25px;
+    color: white;
+}
+
+h1{
+    color: white;
+}
+
+quote{
+    color: white;
+    text-decoration: underline;
+
+}
+
+.slider{
+    overflow: hidden;
+}
+
+.slider figure{
+    position: relative;
+    width:100%;
+    animation: 5s nik infinite;
+}
+
+@keyframes nik{
+    0%{
+        left:-100%;
+    }
+    50%{
+        left:0%;
+    }
+    100%{
+        left:100%;           
+    }
+}
